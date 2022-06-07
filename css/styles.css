@@ -116,7 +116,24 @@
     padding: 0px 15px 0px 15px;
 }
 
-.container img {
+.container2 {
+    display: flex;
+    justify-content: center;
+}
+
+.container2 img {
     width: 150px;
     height: 150px;
+    margin-bottom: 5px;
+}
+.copiright {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
