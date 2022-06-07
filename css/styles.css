@@ -1,6 +1,17 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
 :root {
+    font-size: 62.5%;
+    font-family: ;
     --color-principal: #099D8D;
     --color-secundario: #14D9C4;
+    --color-gris-oscuro: #54585a;
+    --color-gris-claro: #b8b8b9;
+    --color-gris-fondo: #f1f1f1;
 }
 
 * {
@@ -9,57 +20,97 @@
     margin: 0;
 }
 
+.container {
+    margin: 0 15px;
+}
 .header {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
     text-transform: uppercase;
+    position: sticky;
+    top: 0;
+    
 }
 
-h1 {
+.header-title {
     text-align: center;
     width: 100%;
     height: 60px;
     background-color: var(--color-principal);
     opacity: 0.9;
-    padding-top: 10px;
+    padding-top: 15px;
     color: white;
 }
-
-.menu-header {
+.header-nav {
+   width: 100%;
+}
+.header-menu {
+    width: 100%;
     display: flex;
     flex-direction: row;
-    list-style: none;
+    flex-wrap: nowrap;
     justify-content: space-around;
+    list-style: none;
     background-color: var(--color-secundario);
     opacity: 0.9;
     height: 45px;
-    align-items: center;
+    align-items: center;  
+    
 }
 
-.li {
-    display: flex;
-}
-
-a {
-    color: white;
-    font-weight: bold;
-}
-
-img {
+.header-menu .menu-links {
     width: 100%;
+    background-color: var(--color-secundario);
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    text-align: center;
+    
 }
-
-.slogan {
-    background-color: white;
+.hero {
+    height: 421px;
+    border: 5px solid black;
+    background: url(https://raw.githubusercontent.com/Adalab/project-promo-q-module-1-team-3/52e1aa9d48fc0d204a2fb8eb9c833fb31f8b734b/images/logo-adalab.svg);
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-title {
+    background-color: var(--color-gris-oscuro);
     padding: 15px;
-    height: 80%;
     position: relative;
-    transform: translate(50%, -100%);
-    margin: 15px 15px;
-    display: inline-block;
-    align-items: center;
+    transform: translate(0%, 50%);
+    text-align: center;
 }
-
-.slogan p {
-    display: inline;
+.team {
+    margin-top: 20px;
+    padding: 15px;
+}
+.team-title {
+    color: var(--color-principal);
+    text-align: center;
+    padding: 30px 15px 15px 15px;
+    text-transform: uppercase;
+}
+.team-text {
+    color: var(--color-gris-oscuro);
+    text-align: center;
+    padding: 0px 15px 30px 15px;
+}
+.fortalezas, .debilidades {
+    background-color: var(--color-gris-fondo)
+}
+.fortalezas-title, .debilidades-title {
+    color: var(--color-principal);
+    text-align: center;
+    padding: 30px 15px 0px 15px;
+}
+.fortalezas-text {
+    color: var(--color-gris-oscuro);
+    text-align: center;
+    padding: 0px 15px 0px 15px;
 }
