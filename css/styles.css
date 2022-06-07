@@ -73,8 +73,8 @@
     height: 421px;
     border: 5px solid black;
     background: url(https://github.com/Adalab/project-promo-q-module-1-team-3/blob/main/images/image-hero.jpg?raw=true);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: repeat;
     background-position: left;
     display: flex;
     justify-content: center;
@@ -110,10 +110,41 @@
     text-align: center;
     padding: 30px 15px 0px 15px;
 }
-.fortalezas-text {
+.fortalezas-text, .debilidades-text {
     color: var(--color-gris-oscuro);
     text-align: center;
     padding: 0px 15px 0px 15px;
+}
+
+.quienes-somos {
+    text-align: center;
+    padding: 0px 15px 0px 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+.quienes-somos-list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.img-list-item {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 15px;
+}
+
+.quienes-somos-title {
+    margin: 30px 0;
+}
+
+
+.container {
+    padding: 15px;
 }
 
 .container2 {
@@ -137,3 +168,4 @@
     justify-content: center;
     margin-top: 20px;
 }
+
