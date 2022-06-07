@@ -80,7 +80,7 @@
     align-items: flex-end;
 }
 .hero-title {
-    background-color: var(--color-gris-oscuro);
+    background-color: var(--color-gris-fondo);
     padding: 15px;
     position: relative;
     transform: translate(0%, 50%);
