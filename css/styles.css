@@ -71,6 +71,7 @@
 }
 .hero {
     height: 421px;
+    /* width: 100%;  comentiario añadido de MLuisa*/
     border: 5px solid black;
     background: url(https://raw.githubusercontent.com/Adalab/project-promo-q-module-1-team-3/52e1aa9d48fc0d204a2fb8eb9c833fb31f8b734b/images/logo-adalab.svg);
     background-size: cover;
