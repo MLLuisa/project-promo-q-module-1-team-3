@@ -1,13 +1,6 @@
-@font-face {
-    font-family: 'Open Sans';
-    src: url('fonts/OpenSans-Regular.ttf') format('truetype');
-    font-style: normal;
-    font-weight: normal;
-}
-
 :root {
     font-size: 62.5%;
-    /* font-family: ; */
+    font-family: 'Open Sans', sans-serif;
     --color-principal: #099D8D;
     --color-secundario: #14D9C4;
     --color-gris-oscuro: #54585a;
