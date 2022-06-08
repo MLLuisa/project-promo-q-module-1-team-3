@@ -182,7 +182,15 @@
 }
 
 .rrss {
-    padding: 1.5%;
+    padding: 15px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+   }
+.fa-brands, .fa-solid {
+    color: var(--color-principal);
+    align-items: center;
 
 }
 
