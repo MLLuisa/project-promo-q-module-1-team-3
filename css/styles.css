@@ -91,6 +91,7 @@
     text-align: center;
     font-size: 1.8rem;
 }
+
 .team {
     margin-top: 20px;
     padding: 15px;
@@ -133,6 +134,7 @@
     margin-bottom: 15px;
     font-size: 1.6rem;
 }
+
 .quienes-somos-title {
     margin: 30px 0;
     font-size: 2.4rem;
@@ -140,10 +142,12 @@
     text-transform: uppercase;
 
 }
+
 .quienes-somos {
     text-align: center;
     padding: 0px 15px 0px 15px;
 }
+
 .quienes-somos-list {
     list-style: none;
     display: flex;
@@ -151,35 +155,43 @@
     flex-direction: column;
     flex-wrap: wrap;
 }
+
 .img-list-item {
     width: 190px;
     height: 240px;
     margin: 30px 0px 15px 0px;
     border-radius: 10px;
     border: solid var(--color-gris-fondo) 5px;
+
 }
+
 .name {
     font-size: 2rem;
     color: black;
     padding: 5px;
 }
+
 .text-item {
     font-size: 1.6rem;
     color: var(--color-gris-oscuro);
     padding: 5px;
 }
+
 .container {
     padding: 15px;
 }
+
 .container2 {
     display: flex;
     justify-content: center;
 }
+
 .container2 img {
     width: 150px;
     height: 150px;
     margin-bottom: 5px;
 }
+
 .rrss {
     padding: 15px 0px;
     display: flex;
@@ -187,10 +199,13 @@
     justify-content: center;
     gap: 15px;
 }
-.fa-brands, .fa-solid {
+
+.fa-brands,
+.fa-solid {
     color: var(--color-principal);
     align-items: center;
 }
+
 .copiright {
     display: flex;
     justify-content: center;
@@ -198,14 +213,16 @@
     font-size: 1.4rem;
     color: var(--color-gris-claro);
 }
+
 .container3 {
     display: flex;
     justify-content: center;
     margin-top: 20px;
     font-size: 1.4rem;
     color: var(--color-gris-oscuro);
-    text-transform: uppercase;      
+    text-transform: uppercase;
 }
+
 .list-container3 {
     list-style: none;
 }
