@@ -177,6 +177,7 @@
     color: var(--color-gris-oscuro);
     padding: 5px;
 }
+
 .rrss {
     padding: 15px 0px;
     display: flex;
@@ -184,15 +185,18 @@
     justify-content: center;
     gap: 15px;
 }
+
 .fa-brands,
 .fa-solid {
     color: var(--color-principal);
     align-items: center;
 }
+
 .footer {
     border-top: solid var(--color-gris-claro) 1px;
     margin-bottom: 15px;
 }
+
 .copiright {
     display: flex;
     justify-content: center;
@@ -200,6 +204,7 @@
     font-size: 1.4rem;
     color: var(--color-gris-claro);
 }
+
 .footer-nav {
     display: flex;
     justify-content: center;
@@ -208,17 +213,21 @@
     color: var(--color-gris-oscuro);
     text-transform: uppercase;
 }
+
 .list-nav-footer {
-    list-style: none;  
+    list-style: none;
 }
+
 .links-footer {
     text-decoration: none;
     color: var(--color-gris-oscuro);
 }
+
 .container2 {
     display: flex;
     justify-content: center;
 }
+
 .container2 img {
     width: 150px;
     height: 150px;
