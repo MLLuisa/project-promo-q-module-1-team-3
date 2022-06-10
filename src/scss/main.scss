@@ -169,8 +169,8 @@
 }
 
 .img-list-item {
-    width: 190px;
-    height: 250px;
+    width: 180px;
+    height: 180px;
     margin: 30px 0px 15px 0px;
     border-radius: 10px;
     border: solid var(--color-gris-fondo) 5px;
@@ -187,21 +187,6 @@
     font-size: 1.6rem;
     color: var(--color-gris-oscuro);
     padding: 5px;
-}
-
-.container {
-    padding: 15px;
-}
-
-.container2 {
-    display: flex;
-    justify-content: center;
-}
-
-.container2 img {
-    width: 150px;
-    height: 150px;
-    margin-bottom: 5px;
 }
 
 .rrss {
@@ -228,12 +213,12 @@
 .copiright {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 30px;
     font-size: 1.4rem;
     color: var(--color-gris-claro);
 }
 
-.container3 {
+.footer-nav {
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -242,6 +227,22 @@
     text-transform: uppercase;
 }
 
-.list-container3 {
+.list-nav-footer {
     list-style: none;
+}
+
+.links-footer {
+    text-decoration: none;
+    color: var(--color-gris-oscuro);
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+}
+
+.container2 img {
+    width: 150px;
+    height: 150px;
+    padding: 30px 0px;
 }
