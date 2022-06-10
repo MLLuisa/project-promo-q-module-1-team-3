@@ -207,6 +207,9 @@
     align-items: center;
 }
 
+.footer {
+    border-top: solid var(--color-gris-claro) 1px;
+}
 .copiright {
     display: flex;
     justify-content: center;
@@ -215,7 +218,7 @@
     color: var(--color-gris-claro);
 }
 
-.container3 {
+.footer-nav {
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -224,6 +227,11 @@
     text-transform: uppercase;
 }
 
-.list-container3 {
+.list-nav-footer {
     list-style: none;
+    
+}
+.links-footer {
+    text-decoration: none;
+    color: var(--color-gris-oscuro);
 }
