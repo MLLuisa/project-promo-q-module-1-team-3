@@ -207,6 +207,13 @@
     align-items: center;
 }
 
+.fa-brands::after {
+    content: "·";
+    font-weight: bolder;
+    color: var(--color-principal);
+    margin-left: 10%
+}
+
 .copiright {
     display: flex;
     justify-content: center;
