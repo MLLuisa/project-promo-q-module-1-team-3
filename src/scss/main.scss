@@ -142,9 +142,14 @@
 .debilidades-text {
     color: var(--color-gris-oscuro);
     text-align: center;
-    padding: 5px 15px 30px 15px;
-    margin-bottom: 15px;
+    padding: 5px 15px 0px 15px;
     font-size: 1.6rem;
+
+}
+
+.debilidades-text {
+    padding-bottom: 45px;
+
 }
 
 .quienes-somos-title {
