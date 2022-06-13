@@ -1,5 +1,4 @@
-/*@import 'core/variables';
-@import 'core/reset';
+/*
 @import 'components/code';
 @import 'components/links';
 @import 'layout/page';
@@ -7,24 +6,13 @@
 @import 'layout/footer';
 @import 'pages/index';
 */
-
+@import 'core/variables';
+@import 'core/reset';
 
 :root {
     font-size: 62.5%;
     font-family: 'Open Sans', sans-serif;
-    --color-principal: #099D8D;
-    --color-secundario: #14D9C4;
-    --color-gris-oscuro: #54585a;
-    --color-gris-claro: #b8b8b9;
-    --color-gris-fondo: #f1f1f1;
 }
-
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
 .container {
     margin: 0 15px;
 }
@@ -45,7 +33,7 @@
     text-align: center;
     width: 100%;
     height: 60px;
-    background-color: var(--color-principal);
+    background-color: $color-principal;
     opacity: 0.9;
     padding-top: 15px;
     color: white;
@@ -63,7 +51,7 @@
     flex-wrap: nowrap;
     justify-content: space-around;
     list-style: none;
-    background-color: var(--color-secundario);
+    background-color: $color-secundario;
     opacity: 0.9;
     height: 45px;
     align-items: center;
@@ -72,7 +60,7 @@
 
 .header-menu .menu-links {
     width: 100%;
-    background-color: var(--color-secundario);
+    background-color: $color-secundario;
     color: white;
     border: none;
     text-transform: uppercase;
@@ -96,7 +84,7 @@
 }
 
 .hero-title {
-    background-color: var(--color-gris-fondo);
+    background-color: $color-gris-fondo;
     padding: 15px;
     position: relative;
     transform: translate(0%, 100%);
@@ -110,7 +98,7 @@
 }
 
 .team-title {
-    color: var(--color-principal);
+    color: $color-principal;
     text-align: center;
     padding: 30px 0px 15px 0px;
     text-transform: uppercase;
@@ -119,7 +107,7 @@
 }
 
 .team-text {
-    color: var(--color-gris-oscuro);
+    color: $color-gris-oscuro;
     text-align: center;
     padding: 0px 15px 30px 15px;
     font-size: 1.6rem;
@@ -127,12 +115,12 @@
 
 .fortalezas,
 .debilidades {
-    background-color: var(--color-gris-fondo)
+    background-color: $color-gris-fondo;
 }
 
 .fortalezas-title,
 .debilidades-title {
-    color: var(--color-principal);
+    color: $color-principal;
     text-align: center;
     padding: 30px 15px 5px 15px;
     font-size: 2.2rem;
@@ -140,7 +128,7 @@
 
 .fortalezas-text,
 .debilidades-text {
-    color: var(--color-gris-oscuro);
+    color: $color-gris-oscuro;
     text-align: center;
     padding: 5px 15px 0px 15px;
     font-size: 1.6rem;
@@ -155,7 +143,7 @@
 .quienes-somos-title {
     margin: 30px 0;
     font-size: 2.4rem;
-    color: var(--color-principal);
+    color: $color-principal;
     text-transform: uppercase;
 
 }
@@ -178,7 +166,7 @@
     height: 180px;
     margin: 30px 0px 15px 0px;
     border-radius: 10px;
-    border: solid var(--color-gris-fondo) 5px;
+    border: solid $color-gris-fondo 5px;
 
 }
 
@@ -190,7 +178,7 @@
 
 .text-item {
     font-size: 1.6rem;
-    color: var(--color-gris-oscuro);
+    color: $color-gris-oscuro;
     padding: 5px;
 }
 
@@ -204,14 +192,14 @@
 
 .fa-brands,
 .fa-solid {
-    color: var(--color-principal);
+    color: $color-principal;
     align-items: center;
 }
 
 .fa-brands::after {
     content: "·";
     font-weight: bolder;
-    color: var(--color-principal);
+    color: $color-principal;
     margin-left: 10%
 }
 
@@ -220,7 +208,7 @@
     justify-content: center;
     margin-top: 30px;
     font-size: 1.4rem;
-    color: var(--color-gris-claro);
+    color: $color-gris-claro;
 }
 
 .footer-nav {
@@ -228,7 +216,7 @@
     justify-content: center;
     margin-top: 20px;
     font-size: 1.4rem;
-    color: var(--color-gris-oscuro);
+    color: $color-gris-oscuro;
     text-transform: uppercase;
 }
 
@@ -238,7 +226,7 @@
 
 .links-footer {
     text-decoration: none;
-    color: var(--color-gris-oscuro);
+    color: $color-gris-oscuro;
 }
 
 .container2 {
