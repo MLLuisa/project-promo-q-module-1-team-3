@@ -1,0 +1,62 @@
+.quienes-somos-title {
+    margin: 30px 0;
+    font-size: 2.4rem;
+    color: $color-principal;
+    text-transform: uppercase;
+
+}
+
+.quienes-somos {
+    text-align: center;
+    padding: 0px 15px 0px 15px;
+}
+
+.quienes-somos-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.img-list-item {
+    width: 180px;
+    height: 180px;
+    margin: 30px 0px 15px 0px;
+    border-radius: 10px;
+    border: solid $color-gris-fondo 5px;
+
+}
+
+.name {
+    font-size: 2rem;
+    color: black;
+    padding: 5px;
+}
+
+.text-item {
+    font-size: 1.6rem;
+    color: $color-gris-oscuro;
+    padding: 5px;
+}
+
+.rrss {
+    padding: 15px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+.fa-brands,
+.fa-solid {
+    color: $color-principal;
+    align-items: center;
+}
+
+.fa-brands::after {
+    content: "·";
+    font-weight: bolder;
+    color: $color-principal;
+    margin-left: 10%
+}

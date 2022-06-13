@@ -1,0 +1,46 @@
+.copiright {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 1.4rem;
+  color: $color-gris-claro;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 1.4rem;
+  color: $color-gris-oscuro;
+  text-transform: uppercase;
+}
+
+.list-nav-footer {
+  list-style: none;
+}
+
+.links-footer {
+  text-decoration: none;
+  color: $color-gris-oscuro;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+}
+
+.container2 img {
+  width: 150px;
+  height: 150px;
+  padding: 30px 0px;
+}
+
+.container3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.list-container3 {
+  list-style: none;
+}
