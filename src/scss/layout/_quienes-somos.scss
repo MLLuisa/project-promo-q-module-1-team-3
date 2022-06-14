@@ -9,6 +9,10 @@
 .quienes-somos {
     text-align: center;
     padding: 0px 15px 0px 15px;
+    margin-bottom: 30px;
+    @media all and (min-width: 768px) {
+        margin-bottom: 45px;
+    }
 }
 
 .quienes-somos-list {
@@ -18,13 +22,55 @@
     flex-direction: column;
     flex-wrap: wrap;
 }
+.right .list-item {
+    @media all and (min-width: 768px) {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+    &__list {
+        @media all and (min-width: 768px) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-end;
+            padding: 30px;
 
+        }
+    }
+}
+.right .list-item .text-item {
+    @media all and (min-width: 768px) {
+        text-align: end;
+        
+    }
+}
+.list-item {
+    @media all and (min-width: 768px) {
+        display: flex;
+        justify-content: center;
+    }
+    &__list {
+        @media all and (min-width: 768px) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 30px;
+
+        }
+    }
+}
 .img-list-item {
     width: 180px;
     height: 180px;
     margin: 30px 0px 15px 0px;
     border-radius: 10px;
     border: solid $color-gris-fondo 5px;
+    @media all and (min-width: 768px) {
+        width: 205px;
+        height: 205px;
+    }
 
 }
 
@@ -32,12 +78,17 @@
     font-size: 2rem;
     color: black;
     padding: 5px;
+    align-items: left;
 }
 
 .text-item {
     font-size: 1.6rem;
     color: $color-gris-oscuro;
     padding: 5px;
+    @media all and (min-width: 768px) {
+        text-align: start;
+        
+    }
 }
 
 .rrss {
@@ -59,4 +110,11 @@
     font-weight: bolder;
     color: $color-principal;
     margin-left: 10%
+}
+.right {
+    @media all and (min-width: 768px) {
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
 }

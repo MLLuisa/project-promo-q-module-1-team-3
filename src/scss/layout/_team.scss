@@ -26,14 +26,24 @@
     position: relative;
     transform: translate(50vw, 15px) rotate(45deg);
     display: inline-block;
-    
+       
 }
 .team-fortalezas {
     background-color: $color-gris-fondo;
     padding: 30px 0px;
-    
+    @media all and (min-width: 768px) {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        
+    }
 }
-
+.fortalezas {
+    @media all and (min-width: 768px) {
+        width: 100vw;  
+    }   
+}
 .fortalezas-title,
 .debilidades-title {
     color: $color-principal;

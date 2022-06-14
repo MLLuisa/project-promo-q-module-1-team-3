@@ -25,9 +25,16 @@
     background-color: $color-gris-fondo;
     padding: 15px;
     position: relative;
-    transform: translate(0%, 100%);
+    transform: translate(0%, 50%);
     text-align: center;
     font-size: 1.8rem;
+    @media all and (min-width: 768px) {
+        width: 441px;
+        padding: 15px 30px;
+        transform: translate(-45%, 50%);
+        margin-left: 10px;
+        
+    }
     &__contact {
         display: none;
     }
