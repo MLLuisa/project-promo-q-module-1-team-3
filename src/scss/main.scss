@@ -1,11 +1,12 @@
 /*
+
 @import 'components/code';
+*/
 @import 'components/links';
 
 
 
 
-*/
 @import 'core/variables';
 @import 'core/reset';
 
@@ -14,4 +15,11 @@
 @import 'layout/team';
 @import 'layout/quienes-somos';
 @import 'layout/footer';
+
+@import 'pages/contacto';
 @import 'pages/index';
+
+:root {
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif
+  }
