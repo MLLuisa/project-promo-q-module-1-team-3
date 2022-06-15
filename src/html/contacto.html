@@ -1,89 +1,68 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <include src="./partials/links.html"></include>
-    <title>Contacto</title>
-  </head>
-  <body>
-    <include src="./partials/header.html"></include>
-    <main class="main">
-      <section class="hero__contact">
-        <div class="container">
-          <h2 class="herotitle__contact">
-            TECNOCATS: nos gusta afilarnos las uñas en el teclado
-          </h2>
-        </div>
-      </section>
 
-      <!-- Colocar texto de contacto -->
-      <section id="contacto" class="contacto">
-        <div class="contacto-container">
-          <h2 class="contacto-title">Contacto</h2>
-          <p class="contacto-text">
-            Si necesitas contactarnos para hacer alguna consulta o sugerencia,
-            por favor, siéntete libre de hacerlo. Nos pondremos en contacto
-            contigo con la mayor brevedad posible. ¡Palabra gatuna!
-          </p>
-        </div>
-        <p class="small-text">
-          Todos los campos marcados con <span>*</span> son obligatorios.
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <include src="./partials/links.html"></include>
+  <title>Contacto</title>
+</head>
+
+<body>
+  <include src="./partials/header.html"></include>
+  <main class="main">
+    <section class="hero__contact">
+      <div class="container">
+        <h2 class="herotitle__contact">
+          TECNOCATS: nos gusta afilarnos las uñas en el teclado
+        </h2>
+      </div>
+    </section>
+
+    <!-- Colocar texto de contacto -->
+    <section id="contacto" class="contacto">
+      <div class="contacto-container">
+        <h2 class="contacto-title">Contacto</h2>
+        <p class="contacto-text">
+          Si necesitas contactarnos para hacer alguna consulta o sugerencia,
+          por favor, siéntete libre de hacerlo. Nos pondremos en contacto
+          contigo con la mayor brevedad posible. ¡Palabra gatuna!
         </p>
-      </section>
+      </div>
+      <p class="small-text">
+        Todos los campos marcados con <span>*</span> son obligatorios.
+      </p>
+    </section>
 
-      <form class="container-form" action="contacto" method="post">
-        <div class="form">
-          <label for="name">Nombre completo<span>*</span></label>
-          <input
-            class="form__input"
-            type="text"
-            required
-            placeholder="Nombre..."
-            id="name"
-            name="name"
-          />
-        </div>
+    <form class="container-form" action="contacto" method="post">
+      <div class="form">
+        <label for="name">Nombre completo<span>*</span></label>
+        <input class="form__input" type="text" required placeholder="Nombre..." id="name" name="name" />
+      </div>
 
+      <div class="form-desktop">
         <div class="form">
           <label for="email">Email<span>*</span></label>
-          <input
-            class="form__input--mail"
-            type="email"
-            required
-            value="nombre.apellidos@mail.com"
-            id="email"
-            name="email"
-          />
+          <input class="form__input--mail" type="email" required value="nombre.apellidos@mail.com" id="email"
+            name="email" />
         </div>
-
         <div class="form">
           <label for="tel">Teléfono</label>
-          <input
-            class="form__input"
-            type="tel"
-            placeholder="Ej: 123456789"
-            id="tel"
-            name="tel"
-          />
+          <input class="form__input--tel" type="tel" placeholder="Ej: 123456789" id="tel" name="tel" />
         </div>
+      </div>
 
-        <div class="form">
-          <label for="message">Mensaje<span>*</span></label>
-          <textarea
-            class="form__input"
-            name="message"
-            required
-            placeholder="¿Qué necesitas?"
-            id="message"
-            name="message"
-          ></textarea>
-        </div>
+      <div class="form">
+        <label for="message">Mensaje<span>*</span></label>
+        <textarea class="form__input" name="message" required placeholder="¿Qué necesitas?" id="message"
+          name="message"></textarea>
+      </div>
 
-        <div class="form"><button type="submit">Enviar</button></div>
-      </form>
-    </main>
-    <include src="./partials/footer.html"></include>
-  </body>
+      <div class="form"><button type="submit">Enviar</button></div>
+    </form>
+  </main>
+  <include src="./partials/footer.html"></include>
+</body>
+
 </html>

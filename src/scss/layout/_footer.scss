@@ -1,5 +1,11 @@
 .footer {
   border-top: solid 1px $color-gris-claro;
+  @media all and (min-width: 768px) {
+    margin-top: 60px;
+  } 
+  @media all and (min-width: 1200px) {
+    margin-top: 120px;
+  } 
 }
 .copyright {
   padding-top: 30px;
