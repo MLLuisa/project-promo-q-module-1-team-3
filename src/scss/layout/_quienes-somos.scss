@@ -3,6 +3,10 @@
     font-size: 2.4rem;
     color: $color-principal;
     text-transform: uppercase;
+    @media all and (min-width: 768px) {
+        margin-top: 45px;
+    }
+   
 
 }
 
@@ -10,9 +14,7 @@
     text-align: center;
     padding: 0px 15px 0px 15px;
     margin-bottom: 30px;
-    @media all and (min-width: 768px) {
-        margin-bottom: 45px;
-    }
+    
 }
 
 .quienes-somos-list {
@@ -71,6 +73,10 @@
         width: 205px;
         height: 205px;
     }
+    @media all and (min-width: 1200px) {
+        width: 278px;
+        height: 278px;
+    }
 
 }
 
@@ -87,6 +93,10 @@
     padding: 5px;
     @media all and (min-width: 768px) {
         text-align: start;
+        
+    }
+    @media all and (min-width: 1200px) {
+        width: 439px;
         
     }
 }

@@ -18,6 +18,9 @@
         display: flex;
         justify-content: center;
         align-items: flex-end;
+        @media all and (min-width: 1200px) {
+            height: 550px;
+        }
     }
 }
 
@@ -32,9 +35,10 @@
         width: 441px;
         padding: 15px 30px;
         transform: translate(-45%, 50%);
-        margin-left: 10px;
+        margin-left: 10vh;
         
     }
+  
     &__contact {
         display: none;
     }

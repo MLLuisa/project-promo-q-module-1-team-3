@@ -1,6 +1,10 @@
 .team {
     margin-top: 20px;
     padding: 15px;
+    @media all and (min-width: 1200px) {
+        width: 601px;
+        margin: 20px auto 0px auto;
+    }
 }
 
 .team-title {
@@ -10,6 +14,7 @@
     text-transform: uppercase;
     font-size: 2.4rem;
     margin-top: 30px;
+   
 }
 
 .team-text {
@@ -17,6 +22,12 @@
     text-align: center;
     padding: 0px 15px 30px 15px;
     font-size: 1.6rem;
+    @media all and (min-width: 768px) {
+        padding: 0px 30px 30px 30px;
+    }
+    @media all and (min-width: 1200px) {
+        padding: 0px 0px 30px 0px;
+    }
 }
 
 .team-box {
@@ -26,11 +37,11 @@
     position: relative;
     transform: translate(50vw, 15px) rotate(45deg);
     display: inline-block;
-       
+    
 }
 .team-fortalezas {
     background-color: $color-gris-fondo;
-    padding: 30px 0px;
+    
     @media all and (min-width: 768px) {
         display: flex;
         flex-direction: row;
@@ -38,11 +49,20 @@
         align-content: center;
         
     }
+    @media all and (min-width: 1200px) {
+        padding: 45px 0px;
+        
+    }
+    
 }
 .fortalezas {
     @media all and (min-width: 768px) {
         width: 100vw;  
     }   
+    @media all and (min-width: 1200px) {
+        gap: 15px;
+        width: 439.5px;
+    }
 }
 .fortalezas-title,
 .debilidades-title {
@@ -50,18 +70,19 @@
     text-align: center;
     padding: 15px 15px 5px 15px;
     font-size: 2.2rem;
+    @media all and (min-width: 1200px) {
+        padding: 15px;
+    }
 }
 
 .fortalezas-text,
 .debilidades-text {
     color: $color-gris-oscuro;
     text-align: center;
-    padding: 5px 15px 15px 15px;
+    padding: 5px 15px 45px 15px;
     font-size: 1.6rem;
-
+    @media all and (min-width: 768px) {
+        padding: 5px 15px 60px 15px;  
+    }   
 }
 
-.debilidades-text {
-    padding-bottom: 45px;
-
-}
