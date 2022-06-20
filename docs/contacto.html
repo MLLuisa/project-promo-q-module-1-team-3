@@ -1,111 +1,158 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://pro.fontawesome.com" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/37bd59997a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Joan&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/contacto.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://pro.fontawesome.com" />
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-  <script src="https://kit.fontawesome.com/37bd59997a.js" crossorigin="anonymous"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/css/contacto.css" />
-  <link rel="stylesheet" href="./assets/css/main.css" />
-  <title>Contacto</title>
-</head>
+    <title>Contacto</title>
+  </head>
 
-<body>
-  <header class="header">
-      <h1 class="header-title">Tecnocats</h1>
+  <body>
+    <header class="header">
+      <h1 class="header-title"><a href="../index.html#"> Tecnocats</a></h1>
       <nav class="header-nav">
-          <ul class="header-menu">
-              <li>
-                  <a class="menu-links" href="./index.html#team">Equipo</a>
-              </li>
-              <li>
-                  <a class="menu-links" href="./index.html#quienes-somos">Quienes somos</a>
-              </li>
-              <li>
-                  <a class="menu-links" href="./contacto.html">Contacto</a>
-              </li>
-          </ul>
+        <ul class="header-menu">
+          <li>
+            <a class="menu-links" href="./index.html#team">Equipo</a>
+          </li>
+          <li>
+            <a class="menu-links" href="./index.html#quienes-somos"
+              >Quienes somos</a
+            >
+          </li>
+          <li>
+            <a class="menu-links" href="./contacto.html">Contacto</a>
+          </li>
+        </ul>
       </nav>
-  </header>
-  <main class="main">
-    <section class="hero__contact">
-      <div class="container">
-        <h2 class="herotitle__contact">
-          TECNOCATS: nos gusta afilarnos las uñas en el teclado
-        </h2>
-      </div>
-    </section>
+    </header>
 
-    <!-- Colocar texto de contacto -->
-    <section id="contacto" class="contacto">
-      <div class="contacto-container">
-        <h2 class="contacto-title">Contacto</h2>
-        <p class="contacto-text">
-          Si necesitas contactarnos para hacer alguna consulta o sugerencia,
-          por favor, siéntete libre de hacerlo. Nos pondremos en contacto
-          contigo con la mayor brevedad posible. ¡Palabra gatuna!
+    <main class="main">
+      <section class="hero__contact">
+        <div class="container">
+          <h2 class="herotitle__contact">
+            TECNOCATS: nos gusta afilarnos las uñas en el teclado
+          </h2>
+        </div>
+      </section>
+
+      <!-- Colocar texto de contacto -->
+      <section id="contacto" class="contacto">
+        <div class="contacto-container">
+          <h2 class="contacto-title">Contacto</h2>
+          <p class="contacto-text">
+            Si necesitas contactarnos para hacer alguna consulta o sugerencia,
+            por favor, siéntete libre de hacerlo. Nos pondremos en contacto
+            contigo con la mayor brevedad posible. ¡Palabra gatuna!
+          </p>
+        </div>
+        <p class="small-text">
+          Todos los campos marcados con <span>*</span> son obligatorios.
         </p>
-      </div>
-      <p class="small-text">
-        Todos los campos marcados con <span>*</span> son obligatorios.
-      </p>
-    </section>
+      </section>
 
-    <form class="container-form" action="contacto" method="post">
-      <div class="form">
-        <label for="name">Nombre completo<span>*</span></label>
-        <input class="form__input" type="text" required placeholder="Nombre..." id="name" name="name" />
-      </div>
-
-      <div class="form-desktop">
+      <form
+        class="container-form"
+        action="https://formspree.io/f/xlezkdqd"
+        method="post"
+      >
         <div class="form">
-          <label for="email">Email<span>*</span></label>
-          <input class="form__input--mail" type="email" required value="nombre.apellidos@mail.com" id="email"
-            name="email" />
+          <label for="name">Nombre completo<span>*</span></label>
+          <input
+            class="form__input"
+            type="text"
+            required
+            placeholder="Nombre..."
+            id="name"
+            name="name"
+          />
         </div>
-        <div class="form">
-          <label for="tel">Teléfono</label>
-          <input class="form__input--tel" type="tel" placeholder="Ej: 123456789" id="tel" name="tel" />
-        </div>
-      </div>
 
-      <div class="form">
-        <label for="message">Mensaje<span>*</span></label>
-        <textarea class="form__input" name="message" required placeholder="¿Qué necesitas?" id="message"
-          name="message"></textarea>
-      </div>
-
-      <div class="form"><button type="submit">Enviar</button></div>
-    </form>
-  </main>
-  <footer class="footer">
-      <div class="footer-items">
-          <div class="copyright">Tecnocats &copy 2022</div>
-          <div class="footer-menu">
-              <ul class="list-footer-menu">
-                  <li>
-                      <a class="footer-links" href="./index.html#team">Equipo</a>
-                  </li>
-                  <li>
-                      <a class="footer-links" href="./index.html#quienes-somos">Quienes somos</a>
-                  </li>
-                  <li>
-                      <a class="footer-links" href="./contacto.html">Contacto</a>
-                  </li>
-              </ul>
+        <div class="form-desktop">
+          <div class="form">
+            <label for="email">Email<span>*</span></label>
+            <input
+              class="form__input--mail"
+              type="email"
+              required
+              value="nombre.apellidos@mail.com"
+              id="email"
+              name="email"
+            />
           </div>
-      </div>
-      <div class="logo-footer">
-          <img src="./assets/images/logo-adalab.svg" alt="Logo de Adalab" title="Logo Adalab">
-      </div>
-  </footer>
-</body>
+          <div class="form">
+            <label for="tel">Teléfono</label>
+            <input
+              class="form__input--tel"
+              type="tel"
+              placeholder="Ej: 123456789"
+              id="tel"
+              name="tel"
+            />
+          </div>
+        </div>
 
+        <div class="form">
+          <label for="message">Mensaje<span>*</span></label>
+          <textarea
+            class="form__input"
+            name="message"
+            required
+            placeholder="¿Qué necesitas?"
+            id="message"
+            name="message"
+          ></textarea>
+        </div>
+
+        <div class="form"><button type="submit">Enviar</button></div>
+      </form>
+    </main>
+    <footer class="footer">
+        <div class="footer-items">
+            <div class="copyright">Tecnocats &copy 2022</div>
+            <div class="footer-menu">
+                <ul class="list-footer-menu">
+                    <li>
+                        <a class="footer-links" href="./index.html#team">Equipo</a>
+                    </li>
+                    <li>
+                        <a class="footer-links" href="./index.html#quienes-somos">Quienes somos</a>
+                    </li>
+                    <li>
+                        <a class="footer-links" href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="logo-footer">
+            <img src="./assets/images/logo-adalab.svg" alt="Logo de Adalab" title="Logo Adalab">
+        </div>
+    </footer>
+  </body>
 </html>
