@@ -115,6 +115,15 @@
     align-items: center;
 }
 
+.fa-brands:hover {
+    font-size: 250%;
+}
+
+.fa-solid:hover {
+    font-size: 250%;
+}
+
+
 .fa-brands::after {
     content: "·";
     font-weight: bolder;
